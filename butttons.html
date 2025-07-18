@@ -1,0 +1,149 @@
+
+<style>
+  button {
+    cursor: pointer;
+    vertical-align: top;
+    margin-bottom: 10px;
+  }
+
+  .aboneol-button {
+    color: rgb(255, 255, 255);
+    background-color: hsl(3, 100%, 39%);
+    border-width: 1;
+    border: none;
+    border-radius: 2px;
+    cursor:pointer;
+    text-shadow: 2px 2px 2px grey;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    transition: opacity 0.2s;
+    padding-left: 14px; padding-right: 14px;
+    padding-bottom: 9px; padding-top: 8px;
+    vertical-align: top;
+  }
+
+/* transitionı , kullanarak diğer propertyler için de gecerli kılabiliriz. */
+/* :hover here is a pseudoclass. It adds extra styles in a certain situation. */
+
+.aboneol-button:hover {
+  opacity: 0.5;
+  } 
+
+  .aboneol-button:active {
+    opacity: 0.8;
+    }
+
+  .join-button{
+    color: rgb(0, 120, 212);
+    border-color: rgb(0, 120, 212);
+    border-width: 1;
+    border-radius: 5%;
+    background-color: white;
+    padding-bottom: 8;padding-top: 8;
+    padding-left: 12;padding-right: 12;
+    cursor: pointer;
+    vertical-align: top;
+    margin-right: 10;
+    transition: background-color 0.5s, color 1.4s
+    }
+
+  .join-button:hover {
+    background-color: rgba(39, 114, 255, 0.884);
+    color: white;
+    box-shadow: 1px 1px 1px grey;
+  }
+
+  .join-button:active{
+    opacity: 0.4;
+  }
+
+  .tweet-button{
+    margin-right: 10;
+    padding-bottom: 12px;padding-top: 12px;
+    padding-left: 10px;padding-right: 10;
+    background-color: rgba(39, 114, 255, 0.884);
+    color: white;
+    border:none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    vertical-align: top;
+    margin-bottom: 10px;
+    transition: box-shadow 0.14s;
+  }
+
+  .tweet-button:hover{
+        box-shadow: 1px 2px 8px rgb(183, 183, 183);
+  }
+  .tweet-button:act
+
+  .amazon-button{
+    color: black;
+    background-color: rgb(255, 226, 79);
+    border: none;
+    margin-right: 10;
+    padding-bottom: 7px;padding-top: 8px;
+    padding-left: 50;
+    padding-right: 50;
+    border-radius: 15px;
+    margin: 5px;
+    vertical-align: top;
+    margin-right: 10px;transition: background-color 0.4s, opacity 0.3s
+  }
+
+  .amazon-button:hover{
+    background-color: rgb(230, 196, 26);
+  }
+
+  .amazon-button:active{
+    opacity: 0.25;
+  }
+
+  .github-button{
+    color: white;
+    background-color: #29903b;
+    padding-left: 20px; padding-right:20px;
+    padding-top: 14px;padding-bottom: 18px;
+    border: none;
+    vertical-align: top;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: all 0.5s;
+  }
+
+  .github-button:hover {
+opacity: 0.6;  }
+
+  .github-button:active{
+    opacity: 0.8;
+  }
+
+/*   body:hover{
+    transition: background-color 5s;
+    background-color: rgb(0, 0, 0);
+  } */
+
+
+</style>
+
+<!-- button here is the CSS selector. -->
+<!-- class is useful for categorizing -->
+<!-- we put a dot to target a class. -->
+<!-- margin is space simply -->
+
+<!-- <p> YouTube Abone ol tuşu:</p>
+ --><button class="aboneol-button"> ABONE OL</button>
+
+<!-- <p> YouTube Katıl tuşu:</p>
+ --><button class="join-button">JOIN</button>
+
+<!-- <p> Twitter tweet tuşu:</p>
+ --><button class="tweet-button">Tweet</button>
+
+<!-- <p>Amazon sepete ekle butonu:</p>
+ --><button class="amazon-button">Add to Cart</button>
+
+<!-- <p>Github Signup butonu:</p>
+ --><button class="github-button">Sign up</button>

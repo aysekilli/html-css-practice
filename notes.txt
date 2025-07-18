@@ -1,0 +1,12 @@
+anchor element = link to another wevsite
+html attribute : inside html tag
+target default olarak current tabde açıyo
+ama _blank yaparsak yeni tabde açar
+href ve target elementleri sadece link elementinde çalışır
+indenting düzen için önemli
+
+CSS'de ; (semi-colon) dilimizdeki . (nokta) gibi işlev görüyor.
+
+buton içi height ve width kullanmak uzun vadede pek mantıklı değil
+çünkü text uzun olursa dışa taşabilir.
+bu yüzden 'padding' kullanırız.
